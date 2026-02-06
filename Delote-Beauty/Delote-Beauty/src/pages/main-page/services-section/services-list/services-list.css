@@ -1,0 +1,33 @@
+.services-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 396px);
+    gap: 120px 44px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    position: relative;
+}
+
+.service-item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+}
+
+.card-border{
+    border: 1px solid rgb(205, 170, 125);
+    padding: 150px;
+}
+
+.service-item-descr{
+    font-family: Garamond;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}

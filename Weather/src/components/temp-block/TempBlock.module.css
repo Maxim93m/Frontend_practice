@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins";
+    padding-top: 20px;
+    justify-content: space-between;
+    width: 100%;
+    /* gap: 10px; */
+    /* background-color: red; */
+}
+
+.temperature {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aquamarine; */
+    width: 100%;
+    /* gap: 10px; */
+}
+
+.currentTempValue {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 120px;
+}
+
+.minmaxTempBlock,
+.minmaxTemp {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.minmaxTemp {
+    gap: 0;
+    flex-wrap: nowrap;
+}
+
+.textDescr {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.condition{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

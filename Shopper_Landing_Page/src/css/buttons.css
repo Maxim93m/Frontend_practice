@@ -1,0 +1,176 @@
+@charset "UTF-8";
+button {
+  cursor: pointer;
+  border: none;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Кнопка поиска  */
+.form-search__btn {
+  border: 1px solid var(--first_main_color);
+  padding: 19px;
+  border-radius: 5px;
+  background-color: var(--first_main_color);
+  background-image: url("../img/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-search__btn:hover {
+  background-color: var(--second_main_color);
+  background-image: url("../img/search_a.svg");
+}
+
+/* Кнопки корзины и логина */
+.btns_rounded {
+  padding: 18px 20px 18px 50px;
+  border-radius: 30px;
+  background-color: var(--second_main_color);
+  border: 1px solid var(--first_main_color);
+  box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
+  color: var(--main_text_color);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 350px;
+  min-width: 210px;
+  width: 100%;
+  background-position: left 15px center;
+}
+.btns_rounded:hover {
+  background-color: var(--first_main_color);
+  border: 1px solid var(--second_main_color);
+  color: var(--second_main_color);
+}
+
+.btns_rounded_cart {
+  background-image: url(../img/Shopping.svg);
+}
+.btns_rounded_cart:hover {
+  background-image: url(../img/Shopping_no.svg);
+}
+
+.btns_rounded_login {
+  background-image: url(../img/login_a.svg);
+}
+.btns_rounded_login:hover {
+  background-image: url(../img/login.svg);
+}
+
+/* Прямоугольные кнопки */
+.btns_rect {
+  border-radius: 10px;
+  background: var(--first_main_color);
+  box-shadow: 0px 25px 50px 0px rgba(132, 94, 194, 0.15);
+  padding: 22px 70px;
+  min-width: 263px;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  color: var(--second_text_color);
+  font-size: 21px;
+  font-weight: 600;
+  line-height: normal;
+  border: 1px solid var(--first_main_color);
+  box-shadow: 0px 25px 50px 0px rgba(255, 255, 255, 0.1);
+}
+.btns_rect:hover {
+  background: var(--second_main_color);
+  color: var(--first_text_color);
+}
+
+.btns_rect_other {
+  max-width: 175px;
+  width: 100%;
+  background: var(--first_main_color);
+  padding: 14px 20px;
+  border: 1px solid var(--first_main_color);
+  color: var(--second_text_color);
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+.btns_rect_other:hover {
+  background: var(--second_main_color);
+  color: var(--first_text_color);
+}
+
+/* Овальные кнопки */
+.circ_btn {
+  font-size: 26px;
+  font-weight: 600;
+  padding: 25px 30px;
+  border: 1px solid transparent;
+  background: none;
+}
+.circ_btn:hover {
+  background: var(--first_main_color);
+  color: var(--second_text_color);
+  border-radius: 50%;
+  border: 1px solid var(--first_main_color);
+}
+
+.circ_btn.active {
+  background: var(--first_main_color);
+  color: var(--second_text_color);
+  border-radius: 50%;
+  border: 1px solid var(--first_main_color);
+}
+
+/* Стрелочные кнопки */
+.arrow_btn {
+  max-width: 64px;
+  max-height: 64px;
+  width: 100%;
+  height: 100%;
+}
+
+.arrow_btn_circ {
+  max-width: 48px;
+  max-height: 48px;
+  width: 100%;
+  height: 100%;
+  padding: 9px;
+  background-color: var(--first_main_color);
+  border-radius: 100%;
+}
+
+/* Круглые кнопки выбора цвета */
+.circ_btn_switch_color {
+  max-width: 43px;
+  max-height: 43px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  padding: 20px;
+}
+.circ_btn_switch_color:hover {
+  border: 1px solid var(--new_launches_switch_btn_color_hover);
+}
+.circ_btn_switch_color_1 {
+  border: 1px solid var(--new_launches_switch_btn_color_1);
+  background-color: var(--new_launches_switch_btn_color_1);
+}
+.circ_btn_switch_color_2 {
+  border: 1px solid var(--new_launches_switch_btn_color_2);
+  background-color: var(--new_launches_switch_btn_color_2);
+}
+.circ_btn_switch_color_3 {
+  border: 1px solid var(--new_launches_switch_btn_color_3);
+  background-color: var(--new_launches_switch_btn_color_3);
+}
+
+/* Кнопка подтверждения e-mail */
+.center-left__email-form__button {
+  border-radius: 8px 8px 0px 0px;
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/email_arr.svg);
+  background-position: center;
+  padding: 25px;
+  background-color: var(--first_main_color);
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=buttons.css.map */

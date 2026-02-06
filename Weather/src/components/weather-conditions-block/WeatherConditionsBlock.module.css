@@ -1,0 +1,29 @@
+.block {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    font-family: "Poppins";
+    padding-top: 20px;
+    width: 100%;
+}
+
+.wind{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.windImg{
+    display: flex;
+    align-items: center;
+    background-image: url('../../../public/assets/img/compass.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 32px;
+}
+
+.descrText{
+    font-size: 18px;
+    font-weight: 400;
+}

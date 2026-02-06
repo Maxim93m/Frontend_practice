@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* <!-- --------------MAIN------------------- --> */
+main {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* <!-- Top Sellers --> */
+.section-top-sellers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 121px;
+  flex-wrap: wrap;
+}
+.section-top-sellers__h3 {
+  color: var(--first_text_color);
+  text-align: center;
+}
+.section-top-sellers__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  padding-top: 55px;
+  flex-wrap: wrap;
+}
+.section-top-sellers .products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 92px;
+}
+.section-top-sellers .products-container {
+  display: flex;
+  justify-content: center;
+  gap: 93px;
+  flex-wrap: wrap;
+}
+.section-top-sellers .products-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 29px;
+}
+.section-top-sellers .products-main__btn {
+  padding: 23px 120px;
+}
+.section-top-sellers .products-main-block {
+  background-color: var(--top_sellers_first_product_bg_color);
+  padding: 13px 21px 18px 21px;
+  border-radius: 15px;
+  max-height: 570px;
+  max-width: 361px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 10px;
+}
+.section-top-sellers .products-main-block-foto {
+  display: flex;
+  flex-direction: column;
+}
+.section-top-sellers .products-main-block-foto-discount {
+  color: var(--second_text_color);
+  text-align: center;
+  max-width: 100px;
+  border-radius: 100%;
+  padding: 28px 12px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  left: 231px;
+  top: 60px;
+  background-color: var(--first_main_color);
+}
+.section-top-sellers .products-main-block__descr {
+  background-color: var(--product_descr_color);
+  padding: 31px 76px 31px 52px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.section-top-sellers .products-main-block__descr__p_color {
+  color: var(--first_text_color);
+}
+.section-top-sellers .products-main-block__descr__raiting {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.section-top-sellers .products-main-block__descr__raiting_star {
+  display: flex;
+}
+.section-top-sellers .products .section-top-sellers_product-2__color {
+  background-color: var(--top_sellers_second_product_bg_color);
+}
+.section-top-sellers .products .section-top-sellers_product-3__discount_color {
+  background-color: var(--top_sellers_discount_thrid_product_color);
+}
+.section-top-sellers .products .section-top-sellers_product-3__color {
+  background-color: var(--top_sellers_third_product_bg_color);
+}
+
+/* Адаптирование под разные разрешения */
+/* Мобильная версия от 360px до 768px */
+/* <!-- Top Sellers --> */
+@media (min-width: 360px) and (max-width: 768px) {
+  .section-top-sellers {
+    padding-top: 50px;
+  }
+  .section-top-sellers__btns {
+    gap: 30px;
+    padding-top: 30px;
+  }
+  .section-top-sellers .products {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section-top-sellers .products-container {
+    gap: 70px;
+  }
+  .section-top-sellers .products-main__btn {
+    padding: 23px 80px;
+  }
+  .section-top-sellers .products-main-block {
+    gap: 15px;
+  }
+  .section-top-sellers .products-main-block__discount {
+    left: 163px;
+    top: 77px;
+    padding: 21px 25px;
+    font-size: 16px;
+  }
+  .section-top-sellers .products-main-block__discount__btn {
+    padding: 23px 80px;
+  }
+  .section-top-sellers .products-main-block-foto-discount {
+    top: 0;
+    left: 157px;
+  }
+  .section-top-sellers .products-main-block__descr {
+    padding: 19px 30px 31px 30px;
+  }
+}
+/* Планшетная версия от 769px до 1140px */
+/* <!-- Top Sellers --> */
+/* <!--Trending Earphones --> */
+@media (min-width: 769px) and (max-width: 1140px) {
+  .section-top-sellers {
+    padding: 50px;
+  }
+  .section-top-sellers .products {
+    flex-direction: column;
+  }
+  .section-top-sellers .products .arrow_btn {
+    margin: 30px;
+  }
+}/*# sourceMappingURL=top-sellers.css.map */

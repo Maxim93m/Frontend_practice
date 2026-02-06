@@ -1,0 +1,29 @@
+.main{
+    background-color: #111111;
+}
+
+.not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    height: 100vh;
+}
+
+.not-title, .not-title-descr, .not-descr{
+    color: rgb(205, 170, 125);
+    font-family: Cormorant Garamond;
+    font-size: 250px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.not-title-descr{
+    font-size: 50px;
+}
+
+.not-descr{
+    font-size: 18px;
+}

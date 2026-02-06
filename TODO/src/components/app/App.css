@@ -1,0 +1,35 @@
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.tasks-main{
+  margin-top: 36px;
+  margin-left: 60px;
+  font-family: Avenir Next; 
+}
+
+.tasks-main__img{
+  background-image: url(./img/main_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1011px;
+  width: 100%;
+  max-height: 790px; 
+  height: 100%;
+  margin: 0 auto;
+}
+
+.tasks-main__img-header{
+  font-size: 38px;
+  color: #171717;
+  font-weight: 700;
+  text-align: left;
+}
+
+.tasks-main-blocks{
+  display: flex;
+  gap:35px;
+}

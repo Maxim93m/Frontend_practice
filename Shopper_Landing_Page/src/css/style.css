@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* Глобальные переменные стилей */
+@import "../css/variables.css";
+/* Стили параграфов, заголовков и т.п */
+@import "../css/text.css";
+/* Стили ссылок */
+@import "../css/links.css";
+/* Стили кнопок */
+@import "../css/buttons.css";
+/* Позиционирование */
+@import "../css/position.css";
+/* HEADER */
+@import "../css/header.css";
+/* MAIN */
+/* section-latest-products */
+@import "../css/latest-products.css";
+/* section-featured-products */
+@import "../css/featured-products.css";
+/* Top Sellers */
+@import "../css/top-sellers.css";
+/* Trending Earphones */
+@import "../css/trending-earphones.css";
+/* New Launches */
+@import "../css/new-launches.css";
+/* FOOTER */
+@import "../css/footer.css";
+/* mobile */
+@import "../css/mobile.css";
+/* welcome-popup */
+@import "../css/welcome-popup.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Поле поиска */
+input {
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-search__input {
+  color: var(--input_text_color);
+  font-size: 16px;
+  font-weight: 500;
+}
+.form-search__input::-moz-placeholder {
+  color: var(--input_placeholder_color);
+}
+.form-search__input::placeholder {
+  color: var(--input_placeholder_color);
+}
+
+/* Поле для e-mail */
+.center-left__email-form__input {
+  font-family: "DM Sans", sans-serif;
+  color: var(--input_text_color);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+}
+.center-left__email-form__input::-moz-placeholder {
+  color: #808080;
+}
+.center-left__email-form__input::placeholder {
+  color: #808080;
+}
+
+/* <!-- --------------MAIN------------------- --> */
+/* <!-- -------- section-featured-products --------- --> */
+.section-featured-products {
+  margin-top: 85px;
+}
+
+/* Адаптирование под разные разрешения */
+/* Мобильная версия от 360px до 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+  .container {
+    min-width: 368px;
+    max-width: 768px;
+    width: 100%;
+  }
+}
+/* Планшетная версия от 769px до 1140px */
+@media (min-width: 769px) and (max-width: 1140px) {
+  .container {
+    min-width: 769px;
+    max-width: 1140px;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

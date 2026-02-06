@@ -1,0 +1,101 @@
+/* <!-- header-navigation --> */
+.header-navigation {
+    width: 100%;
+    background-color: var(--main-background-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    &__list {
+        display: flex;
+        list-style: none;
+        gap: 8px;
+        font-size: 24px;
+        font-weight: 500;
+        color: var(--main-text-color);
+        &-item {
+            display: flex;
+            gap: 8px;
+            &__a {
+                color: var(--main-text-color);
+                text-decoration: none;
+            }
+        }
+    }
+}
+/* <!-- header-image --> */
+.header-image {
+    background-image: url(../img/image_green.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 157px 0;
+    &__h1 {
+        color: var(--main-text-color);
+        font-size: 72px;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+/* Мобильная версия от 360px - 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+    /* <!-- header-navigation --> */
+    .header-navigation {
+        gap: 70px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        &__list {
+            display: none;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        &__button {
+            background-color: var(--main-background-color);
+            cursor: pointer;
+            background-image: url(../img/links.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 45px;
+            height: 45px;
+        }
+    }
+    /* <!-- header-image --> */
+    .header-image {
+        padding: 114px 0;
+        &__h1 {
+            font-size: 64px;
+        }
+    }
+}
+/* Планшетная версия от 768px - 1140px */
+@media (min-width: 768px) and (max-width: 1140px) {
+    /* <!-- header-navigation --> */
+    .header-navigation {
+        gap: 70px;
+        justify-content: space-around;
+        &__list {
+            display: none;
+        }
+        &__button {
+            background-color: var(--main-background-color);
+            cursor: pointer;
+            background-image: url(../img/links.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 45px;
+            height: 45px;
+        }
+    }
+    /* <!-- header-image --> */
+    .header-image {
+        &__h1 {
+            font-size: 72px;
+        }
+    }
+}

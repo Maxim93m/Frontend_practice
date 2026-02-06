@@ -1,0 +1,60 @@
+.footer {
+    padding: 157px 0 75px 0;
+    font-family: "Montserrat";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(180.00deg, rgba(217, 217, 217, 0), rgb(237, 166, 29) 100%);
+
+    &-links {
+        display: flex;
+        gap: 101px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+
+        &__a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    &-descr {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-top: 45px;
+    }
+
+    &-descr_padding-top {
+        padding-top: 24px;
+    }
+
+    &-network {
+        display: flex;
+        gap: 5px;
+        padding-top: 22px;
+
+        &__btn {
+            min-width: 50px;
+            width: 100%;
+            min-height: 50px;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            border: none;
+            cursor: pointer;
+            background-color: rgba(237, 166, 29, 0.1);
+        }
+
+        &-vk {
+            background-image: url('../img/svg/vk.svg');
+        }
+
+        &-tg {
+            background-image: url('../img/svg/tg.svg');
+        }
+    }
+}

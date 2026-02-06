@@ -1,0 +1,159 @@
+@import url(./font.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/main.jpg);
+    background-repeat: repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: justify;
+
+}
+
+b,
+i {
+    color: #AD6831;
+}
+
+b {}
+
+p {
+    color: #7B827B;
+    font-size: 18px;
+    text-indent: 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    color: #AD6831;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.header {
+    width: 100%;
+    margin-bottom: 25px;
+    height: 30%;
+    border-bottom: 2px #AD6831 solid;
+
+
+}
+
+.main {
+    color: bisque;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    font-style: italic;
+    float: right;
+    margin: 10px 15px 15px 15px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin-bottom: 25px;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.li_m,
+.li_main {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: bisque;
+    border-radius: 7px;
+    background-color: #161616;
+    border-left: 7px solid #ac6730;
+    padding: 5px 95px 5px 5px;
+
+}
+
+figcaption {
+    text-align: center;
+    width: 250px;
+    background: #161616;
+    border-radius: 3px;
+}
+
+a:hover {
+    background-color: bisque;
+    color: #161616;
+}
+
+.h2_l {
+    text-align: left;
+}
+
+.all {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+blockquote {
+    color: bisque;
+    font-style: italic;
+    margin: 15px 15px 30px 15px;
+}
+
+table {
+    text-align: center;
+    color: bisque;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-bottom: 5%;
+}
+
+caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: bisque;
+}
+
+td {
+    width: auto;
+    text-align: center;
+    border-bottom: 2px solid #4e5c86;
+    color: #7B827B;
+}
+
+.ns {
+    padding-right: 55px;
+}
+
+.ns p {
+    padding-bottom: 50px;
+}
+
+.tbl {
+    width: 50%;
+}

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* <!-- --------------MAIN------------------- --> */
+main {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* <!-- -------- section-latest-products --------- --> */
+.section-latest-products {
+  background: var(--second_main_color);
+  padding: 0 85px;
+  display: flex;
+  justify-content: space-between;
+  /* <!-- section-latest-products-left --> */
+  /* <!-- section-latest-products-right --> */
+}
+.section-latest-products-left {
+  padding-top: 127px;
+  width: 50%;
+  max-width: 635px;
+  display: flex;
+  flex-direction: column;
+}
+.section-latest-products-left .discription__p_attr {
+  color: var(--first_text_color);
+  margin-top: 30px;
+}
+.section-latest-products-left .btn_buy_indent {
+  margin-top: 52px;
+}
+.section-latest-products-left .products-rewiev {
+  display: flex;
+  align-items: center;
+  margin-top: 107px;
+}
+.section-latest-products-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.section-latest-products-right .playVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 504px;
+}
+.section-latest-products-right .playVideo__svg {
+  background-image: url(../img/face_5.svg);
+  background-repeat: no-repeat;
+  background-position: 5px;
+}
+.section-latest-products-right .playVideo .discription_primary__p_color {
+  color: var(--first_text_color);
+}
+.section-latest-products-right .main-beats {
+  display: flex;
+}
+.section-latest-products-right .main-beats .star_up {
+  padding-top: 75px;
+}
+.section-latest-products-right .main-beats .read-beats {
+  margin-top: 100px;
+  padding: 76px 4px 102px;
+  max-height: 477px;
+  height: 100%;
+  max-width: 272px;
+  width: 100%;
+  border-radius: 136px;
+  background: var(--background_earphone);
+}
+.section-latest-products-right .main-beats .star_down {
+  padding-top: 550px;
+}
+
+/* Адаптирование под разные разрешения */
+/* Мобильная версия от 360px до 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+  /* <!-- -------- section-latest-products --------- -->  */
+  .section-latest-products {
+    flex-direction: column;
+    padding: 30px;
+    /* <!-- section-latest-products-left --> */
+    /* <!-- section-latest-products-right --> */
+  }
+  .section-latest-products-left {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .section-latest-products-left .title_primary__h1 {
+    font-size: 62px;
+  }
+  .section-latest-products-left .btn_buy_indent {
+    margin-top: 30px;
+  }
+  .section-latest-products-left .products-rewiev {
+    margin-top: 50px;
+  }
+  .section-latest-products-left .products-rewiev__p_attr {
+    left: 190px;
+  }
+  .section-latest-products-right {
+    width: 100%;
+    flex-direction: column;
+  }
+  .section-latest-products-right .playVideo {
+    padding-top: 70px;
+  }
+  .section-latest-products-right .main-beats {
+    flex-direction: column;
+  }
+  .section-latest-products-right .main-beats .star_up {
+    padding-top: 30px;
+  }
+  .section-latest-products-right .main-beats .read-beats {
+    margin: 0;
+  }
+  .section-latest-products-right .main-beats .star_down {
+    padding: 0;
+    padding-left: 250px;
+  }
+}
+/* Планшетная версия от 769px до 1140px */
+@media (min-width: 769px) and (max-width: 1140px) {
+  /* <!-- -------- section-latest-products --------- -->  */
+  .section-latest-products {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    /* <!-- section-latest-products-left --> */
+    /* <!-- section-latest-products-right --> */
+  }
+  .section-latest-products-left {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .section-latest-products-right {
+    width: 100%;
+  }
+}/*# sourceMappingURL=latest-products.css.map */

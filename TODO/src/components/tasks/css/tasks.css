@@ -1,0 +1,43 @@
+.card-section{
+    border-radius: 4px; 
+    margin-top: 42px;
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.card-section-line{
+     border-radius: 4px 4px 0px 0px; 
+     height: 5px;
+}
+.card-section-header{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.card-section-header-descr{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.card-section-header-descr-title{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;    
+}
+
+.card-section-header-addTask{
+    max-width: 70px;
+    width: 100%;
+    padding: 5px;
+    font-size: 25px;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.card-section-header-addTask:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}

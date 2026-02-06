@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* Ссылка логотип - Shopper */
+/* Основной стиль ссылок */
+a {
+  text-decoration: none;
+}
+
+.header-logo__link_green {
+  color: var(--first_main_color);
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-logo__link_black {
+  color: var(--first_text_color);
+  font-style: italic;
+}
+
+.link_primary {
+  color: var(--second_main_color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}/*# sourceMappingURL=links.css.map */

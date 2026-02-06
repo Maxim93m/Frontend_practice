@@ -1,0 +1,140 @@
+/* <!-- --------------MAIN------------------- --> */
+$color_1: var(--first_text_color) !global;
+$font-family_1: "Montserrat", sans-serif;
+
+main {
+    font-style: normal;
+    font-family: $font-family_1;
+}
+/* <!-- -------- section-latest-products --------- --> */
+.section-latest-products {
+    background: var(--second_main_color);
+    padding: 0 85px;
+    display: flex;
+    justify-content: space-between;
+    /* <!-- section-latest-products-left --> */
+    &-left {
+        padding-top: 127px;
+        width: 50%;
+        max-width: 635px;
+        display: flex;
+        flex-direction: column;
+        .discription__p_attr {
+            color: $color_1;
+            margin-top: 30px;
+        }
+        .btn_buy_indent {
+            margin-top: 52px;
+        }
+        .products-rewiev {
+            display: flex;
+            align-items: center;
+            margin-top: 107px;
+        }
+    }
+    /* <!-- section-latest-products-right --> */
+    &-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        .playVideo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 504px;
+            &__svg {
+                background-image: url(../img/face_5.svg);
+                background-repeat: no-repeat;
+                background-position: 5px;
+            }
+            .discription_primary__p_color {
+                color: $color_1;
+            }
+        }
+        .main-beats {
+            display: flex;
+            .star_up {
+                padding-top: 75px;
+            }
+            .read-beats {
+                margin-top: 100px;
+                padding: 76px 4px 102px;
+                max-height: 477px;
+                height: 100%;
+                max-width: 272px;
+                width: 100%;
+                border-radius: 136px;
+                background: var(--background_earphone);
+            }
+            .star_down {
+                padding-top: 550px;
+            }
+        }
+    }
+}
+/* Адаптирование под разные разрешения */
+/* Мобильная версия от 360px до 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+    /* <!-- -------- section-latest-products --------- -->  */
+    .section-latest-products {
+        flex-direction: column;
+        padding: 30px;
+        /* <!-- section-latest-products-left --> */
+        &-left {
+            padding-top: 30px;
+            width: 100%;
+            .title_primary__h1 {
+                font-size: 62px;
+            }
+            .btn_buy_indent {
+                margin-top: 30px;
+            }
+            .products-rewiev {
+                margin-top: 50px;
+                &__p_attr {
+                    left: 190px;
+                }
+            }
+        }
+        /* <!-- section-latest-products-right --> */
+        &-right {
+            width: 100%;
+            flex-direction: column;
+            .playVideo {
+                padding-top: 70px;
+            }
+            .main-beats {
+                flex-direction: column;
+                .star_up {
+                    padding-top: 30px;
+                }
+                .read-beats {
+                    margin: 0;
+                }
+                .star_down {
+                    padding: 0;
+                    padding-left: 250px;
+                }
+            }
+        }
+    }
+}
+/* Планшетная версия от 769px до 1140px */
+@media (min-width: 769px) and (max-width: 1140px) {
+    /* <!-- -------- section-latest-products --------- -->  */
+    .section-latest-products {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        /* <!-- section-latest-products-left --> */
+        &-left {
+            padding-top: 30px;
+            width: 100%;
+        }
+        /* <!-- section-latest-products-right --> */
+        &-right {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import '../css/music-section.css';
+@import '../css/about-section.css';
+@import '../css/store-section.css';
+.main-section__title {
+  color: rgb(255, 255, 255);
+  font-family: "Karla";
+  font-size: 30px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 83px;
+  padding-left: 122px;
+}/*# sourceMappingURL=main.css.map */

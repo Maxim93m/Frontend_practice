@@ -1,0 +1,73 @@
+.header-container {
+  padding-top: 47px;
+  padding-left: 115px;
+  background-image: url("../img/background-header.png");
+  background-position: center;
+  font-family: "Istok Web", sans-serif;
+  color: #FFFFFF;
+}
+
+.header_navigation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 190px;
+}
+.header_navigation_link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.header_navigation_link:hover {
+  color: #D53005;
+}
+.header_navigation_list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-top: 30px;
+  gap: 100px;
+}
+
+.header_block {
+  padding-top: 27px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header_block_logo {
+  padding-top: 164px;
+}
+.header_block_logo__title {
+  max-width: 412px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-family: "Kenia";
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 150px;
+  text-transform: uppercase;
+}
+.header_block_text {
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 290px;
+  width: 100%;
+  padding-top: 175px;
+}
+.header_block_img_list {
+  display: block;
+  position: relative;
+  list-style: none;
+}
+.header_block_img_list .header_block_img_phone {
+  position: relative;
+  z-index: 2;
+}
+.header_block_img_list .header_block_img_cable {
+  position: absolute;
+  left: 48px;
+  top: 733px;
+  z-index: 1;
+}/*# sourceMappingURL=header.css.map */

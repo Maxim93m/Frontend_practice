@@ -1,0 +1,36 @@
+.header-img{
+    background-image: url(../../../public/img/bgc-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1038px;
+    max-height: 1038px;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.header-title{
+    color: #ffffff;
+    max-width: 514px;
+    width: 100%;
+    font-family: Garamond;
+    font-size: 72px;
+    font-weight: 700;
+    margin: 260px auto;
+}
+
+.scroll-down-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.scroll-down-group__img-descr{
+    color: #ffffff;
+    font-family: Garamond;
+    font-size: 18px;
+    font-weight: 700;
+}

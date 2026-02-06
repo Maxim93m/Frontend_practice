@@ -1,0 +1,17 @@
+[
+    {
+        "productName": "Наушники 11",
+        "productReviews": 555,
+        "productPrice": 555
+    },
+    {
+        "productName": "Наушники 22",
+        "productReviews": 777,
+        "productPrice": 777
+    },
+    {
+        "productName": "Наушники 33",
+        "productReviews": 999,
+        "productPrice": 999
+    }
+]

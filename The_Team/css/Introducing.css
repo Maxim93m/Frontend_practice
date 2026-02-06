@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* <!-- main-introducing-pied-piper-coin --> */
+.main-introducing-pied-piper-coin {
+  padding: 48px 10px 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.main-introducing-pied-piper-coin__p-img {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.main-introducing-pied-piper-coin__p-img_attr {
+  max-width: 930px;
+  width: 100%;
+  font-size: 32px;
+  font-weight: 400;
+}
+.main-introducing-pied-piper-coin__p-img_attr_italic {
+  font-style: italic;
+}
+.main-introducing-pied-piper-coin__p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Мобильная версия от 360px - 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+  /* <!-- main-introducing-pied-piper-coin --> */
+  .main-introducing-pied-piper-coin {
+    gap: 20px;
+  }
+  .main-introducing-pied-piper-coin__p-img {
+    gap: 20px;
+  }
+  .main-introducing-pied-piper-coin__p-img_attr {
+    font-size: 24px;
+  }
+  .main-introducing-pied-piper-coin__p {
+    gap: 20px;
+  }
+}/*# sourceMappingURL=introducing.css.map */

@@ -1,0 +1,33 @@
+
+/* Позиционирование блока products-rewiev */
+/* Позиционирование изображения в блоке featured-products__img  */
+.products-rewiev__img {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.user_1 {
+	position: absolute;
+	left: 0px;
+}
+.user_2 {
+	position: absolute;
+	left: 40px;
+}
+.user_3 {
+	position: absolute;
+	left: 80px;
+}
+.user_4 {
+	position: absolute;
+	left: 120px;
+}
+.products-rewiev__p_attr {
+	position: relative;
+	left: 205px;
+	width: 115px;
+}
+.featured-products__img_center {
+	position: relative;
+	top: -70px;
+}

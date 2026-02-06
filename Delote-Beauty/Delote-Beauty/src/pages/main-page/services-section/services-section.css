@@ -1,0 +1,23 @@
+.services-descr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 120px;
+}
+
+.descr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: Garamond;
+    font-size: 27px;
+    font-weight: 700;
+    max-width: 794px;
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+}

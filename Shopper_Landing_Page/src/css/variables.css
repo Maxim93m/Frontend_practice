@@ -1,0 +1,30 @@
+:root {
+    --first_main_color: #10B981;
+    --second_main_color: #ffffff;
+    --first_section_color: #ffffff;
+    --second_section_color: #845EC2;
+    --first_text_color: #000000;
+    --second_text_color: #ffffff;
+    --background_earphone: #ECFEF4;
+    --input_placeholder_color:#e1e1e4;
+    --input_text_color: #000000;
+    --top_sellers_first_product_bg_color: #ECFEF4;
+    --top_sellers_second_product_bg_color: #C9F2FF;
+    --top_sellers_third_product_bg_color: #E5D5FF;
+    --trending_earphones_first_product_bg_color: #E0EFFF;
+    --trending_earphones_second_product_bg_color: #E8F9FF;
+    --trending_earphones_third_product_bg_color: #D3FBFB;
+    --trending_earphones_discount_first_product_color:#10B981; 
+    --trending_earphones_discount_third_product_color: #08BDBE;
+    --product_descr_color:#ffffff;
+    --raiting_text_color: #888888;
+    --top_sellers_discount_first_product_color:#10B981; 
+    --top_sellers_discount_thrid_product_color: #845EC2;
+    --new_launches_switch_btn_color_hover: #ff0000;
+    --new_launches_switch_btn_color_1: #111111;
+    --new_launches_switch_btn_color_2: #fff500;
+    --new_launches_switch_btn_color_3: #4484ff;
+    --footer_start_section_color_border_bottom: #e6e6e6;
+    --popup_background_color: #ecfef4;
+}
+

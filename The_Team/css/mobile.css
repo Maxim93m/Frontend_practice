@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* <!-- mobile-menu --> */
+/* Адаптирование под разные разрешения */
+/* Мобильная версия от 360px до 1140px */
+@media (min-width: 360px) and (max-width: 1140px) {
+  .mobile-menu {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    flex-direction: column;
+    padding-top: 120px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: var(--main-background-color);
+    transition: all 1s ease-out;
+  }
+  .mobile-menu__logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .mobile-menu__logo_close {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .mobile-menu-navigation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    padding-top: 30px;
+  }
+  .mobile-menu-navigation__a {
+    text-decoration: none;
+    font-size: 35px;
+    color: var(--main-text-color);
+  }
+  .mobile-menu-image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/*  Версия ПК от  1140px */
+@media (min-width: 1140px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+.hidden {
+  transform: translateX(-100%);
+}
+
+.visible {
+  transform: translateX(0);
+}/*# sourceMappingURL=mobile.css.map */

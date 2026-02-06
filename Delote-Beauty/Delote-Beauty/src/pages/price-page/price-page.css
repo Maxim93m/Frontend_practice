@@ -1,0 +1,59 @@
+.title-price{
+    padding-top: 80px;
+    color: rgb(255, 255, 255);
+    font-family: Garamond;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.price-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 80px;
+}
+
+.price-list-foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 70px;
+}
+
+.data-price-list{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #888888;
+    padding-bottom: 20px;
+}
+
+.service-price{
+    display: flex;
+    align-items: center;
+    gap: 162px;
+    justify-content: space-between;
+}
+.service, .price-service{
+    color: rgb(255, 255, 255);
+    font-family: Garamond;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+
+.add-service{
+    color: #888888;
+    font-family: Garamond;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}

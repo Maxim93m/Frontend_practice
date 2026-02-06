@@ -1,0 +1,68 @@
+$color_1: var(--first_text_color);
+$color_2: var(--second_section_color);
+$color_3: var(--second_text_color);
+$color_4: var(--raiting_text_color);
+
+.title_primary__h1 {
+	color: $color_1;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	max-width: 600px;
+	width: 100%;
+}
+.title_primary__h2 {
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-shadow: 0 0 5px var(--second_text_color);
+	color: $color_2;
+}
+.title_primary__h3 {
+	font-size: 44px;
+	font-weight: 600;
+	line-height: 54px;
+	color: $color_3;
+}
+.discription_primary__p {
+	color: $color_3;
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 35px;
+	min-width: 112px;
+	width: fit-content;
+}
+.products-rewiev__p {
+	color: $color_1;
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 35px;
+}
+.price__p {
+	color: $color_3;
+	font-size: 31px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 35px;
+}
+.price__span {
+	color: $color_3;
+	font-size: 31px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.raiting-descr {
+	color: $color_4;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+.price-product-descr {
+	color: var(--first_text_color);
+	font-size: 21px;
+	font-weight: 600;
+}

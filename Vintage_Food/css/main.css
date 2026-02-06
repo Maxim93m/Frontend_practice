@@ -1,0 +1,28 @@
+.main {
+  padding: 0 87px;
+  font-family: "Montserrat";
+}
+.main-title {
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 55px;
+  text-align: center;
+}
+.main-menu {
+  padding: 38px 0 47px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px 38px;
+}
+.main-menu-card {
+  text-decoration: none;
+}
+.main-menu-card-descr {
+  padding-top: 14px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 43px;
+}/*# sourceMappingURL=main.css.map */

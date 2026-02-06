@@ -1,0 +1,40 @@
+.works-title{
+    color: rgb(255, 255, 255);
+    font-family: Garamond;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 168px;
+}
+
+.works-nav{
+    padding-top: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+}
+
+.works-nav-links{
+    color: rgb(255, 255, 255);
+    font-family: Garamond;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+.works-nav-links:hover{
+    color: rgb(205, 170, 125);
+    border-bottom: 1px solid rgb(205, 170, 125);
+}
+
+.cardsFoto{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 416px);
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}

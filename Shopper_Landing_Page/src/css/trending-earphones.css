@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* <!-- --------------MAIN------------------- --> */
+main {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* <!--Trending Earphones --> */
+.section-trending-earphones {
+  padding-top: 139px;
+}
+.section-trending-earphones .section-trending-earphones_product-1__color {
+  background-color: var(--trending_earphones_first_product_bg_color);
+}
+.section-trending-earphones .section-trending-earphones_product-2__color {
+  background-color: var(--trending_earphones_second_product_bg_color);
+}
+.section-trending-earphones .section-trending-earphones_product-3__color {
+  background-color: var(--trending_earphones_third_product_bg_color);
+}
+.section-trending-earphones .section-trending-earphones_product-1__discount_color {
+  background-color: var(--trending_earphones_discount_first_product_color);
+}
+.section-trending-earphones .section-trending-earphones_product-3__discount_color {
+  background-color: var(--trending_earphones_discount_third_product_color);
+}
+
+/* Адаптирование под разные разрешения */
+/* Мобильная версия от 360px до 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+  /* <!--Trending Earphones --> */
+  .section-trending-earphones {
+    padding: 20px;
+  }
+}
+/* Планшетная версия от 769px до 1140px */
+@media (min-width: 769px) and (max-width: 1140px) {
+  /* <!--Trending Earphones --> */
+  .section-trending-earphones {
+    padding: 0;
+  }
+}/*# sourceMappingURL=trending-earphones.css.map */

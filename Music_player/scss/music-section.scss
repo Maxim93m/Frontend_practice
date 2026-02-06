@@ -1,0 +1,40 @@
+.music-section {
+    background: rgb(213, 48, 5);
+
+    &__content {
+        padding-left: 122px;
+        padding-top: 61px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-left {
+            display: flex;
+            gap: 88px;
+            flex-direction: column;
+
+            &__btn {
+                max-width: 382px;
+                width: 100%;
+                text-align: center;
+                cursor: pointer;
+                padding: 18px 41px;
+                color: rgb(255, 255, 255);
+                font-family: "Karla";
+                font-size: 40px;
+                font-weight: 400;
+                border: 1px solid rgba(0, 0, 0, 0.5);
+                box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.1), 4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+                background: radial-gradient(2087.07% 134.42% at 2% 8%, rgb(177, 62, 24), rgb(243, 80, 26) 100%)
+            }
+        }
+
+        &-right {
+            background-image: url('../img/seyi-ariyo.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            max-width: 1000px;
+            width: 100%;
+            min-height: 667px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.page-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.page-btn{
+    padding: 20px 25px;
+    color: rgb(255, 255, 255);
+    font-family: Cormorant Garamond;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #111111;
+    border: 1px solid #111111;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.page-btn:hover{
+    color: rgb(205, 170, 125);
+    border: 1px solid rgb(205, 170, 125);
+
+}

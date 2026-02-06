@@ -1,0 +1,44 @@
+/* <!-- main-introducing-pied-piper-coin --> */
+.main-introducing-pied-piper-coin {
+    padding: 48px 10px 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    &__p-img {
+        display: flex;
+        gap: 48px;
+        align-items: center;
+        &_attr {
+            max-width: 930px;
+            width: 100%;
+            font-size: 32px;
+            font-weight: 400;
+            &_italic {
+                font-style: italic;
+            }
+        }
+    }
+    &__p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
+/* Мобильная версия от 360px - 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+    /* <!-- main-introducing-pied-piper-coin --> */
+.main-introducing-pied-piper-coin {
+    gap: 20px;
+    &__p-img {
+        gap: 20px;
+        &_attr {
+            font-size: 24px;
+        }
+    }
+    &__p {
+        gap: 20px;
+    }
+}
+}

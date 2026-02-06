@@ -1,0 +1,33 @@
+/* !-- welcome-popup --> */
+.welcome-popup {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    &__wrapper {
+        background-color: var(--popup_background_color);
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+        gap: 25px;
+        &_text {
+            color: var(--first_text_color);
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+            max-width: 446px;
+            width: 100%;
+        }
+    }
+}
