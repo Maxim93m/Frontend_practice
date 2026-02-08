@@ -1,0 +1,48 @@
+.all_div{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.link_text{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    border: 1px solid blue;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    align-content: center;
+    justify-content: center;
+    transition: transform;
+    transition-duration: 1s;
+}
+.link_text>a{
+    color: blue;
+    text-decoration: none;
+}
+
+.link_text_second, .ex1:hover{
+    transform: rotate(10deg) scale(1.1);
+    z-index: 1;
+}
+
+.rot{
+    margin-top: 150px;
+    transform: rotate(-10deg);
+    transform-origin: left top;
+}
+.ex2:hover, .ex3:hover{
+    transform: scale(1.2) skew(-10deg);
+    z-index: 1;
+}
+.ex3{
+    transform: skew(-10deg);
+}
+
+.text_skew{
+    width: 300px;
+    font-family: Arial;
+    font-size: 17px;
+    transform: skew(3deg);
+}

@@ -1,0 +1,25 @@
+#ex1>li::after {
+    content: '.';
+    margin-bottom: 25px;
+}
+
+#ex2>span::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border: 1px solid red;
+    color: red;
+    position: absolute;
+    align-content:flex-end;
+}
+#ex3{
+    counter-reset: test;
+}
+#ex3>h1::before{
+    counter-increment: test;
+    content:"№"counter(test)".";
+}
+#ex4>a:hover::after{
+    content: '('attr(href)')';
+}

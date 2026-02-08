@@ -1,0 +1,24 @@
+#ex1{
+    width: 80%;
+    column-count: auto;
+    column-width: 300px;
+    margin-bottom: 25px
+}
+#ex2{
+    width: 1000px;
+    column-count: 4;
+    margin-bottom: 25px
+}
+#ex3{
+    width: 1000px;
+    column-count: 4;
+    column-gap: 30px;
+    margin-bottom: 25px
+}
+#ex4{
+    width: 1000px;
+    column-count: 4;
+    column-rule: 1px dashed grey;
+    column-gap: 30px;
+    margin-bottom: 25px
+}

@@ -1,0 +1,28 @@
+// Пример 1
+// div {
+//     p {
+//         color: red;
+//     }
+//     ul {
+//         color: blue;
+//     }
+// }
+// Пример 2
+// div {
+// 	color: red;
+// 	p {
+// 		color: blue;
+// 	}
+// }
+// Пример 3
+div {
+	color: red;
+	
+	ul {
+		color: blue;
+		
+		li {
+			font-size: 20px;
+		}
+	}
+}

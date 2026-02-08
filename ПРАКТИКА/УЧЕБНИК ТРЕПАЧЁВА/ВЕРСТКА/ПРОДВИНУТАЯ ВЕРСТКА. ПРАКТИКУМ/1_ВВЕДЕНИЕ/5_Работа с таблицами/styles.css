@@ -1,0 +1,147 @@
+#ex1 {
+    border: 1px solid #004800;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+}
+
+#ex1 tr>td {
+    color: white;
+    background-color: #00A876;
+    padding: 10px;
+    border: 1px solid #004800;
+}
+
+#ex2 {
+    border: 1px solid #004800;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#ex2 tr>td {
+    color: white;
+    background-color: #00A876;
+    padding: 10px;
+    border: 1px solid #004800;
+}
+#ex3 {
+    border: 1px solid #004800;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+#ex3 tr>td {
+    color: white;
+    background-color: #00A876;
+    padding: 10px;
+    border: 1px solid #004800;
+}
+#ex4 {
+    border: 1px solid #004800;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+#ex4 tr>td {
+    color: white;
+    background-color: #00A876;
+    padding: 10px;
+    border: 1px solid #004800;
+}
+#ex5 {
+    border: 1px solid #004800;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    empty-cells: hide;
+}
+
+#ex5 tr>td {
+    color: white;
+    background-color: #00A876;
+    padding: 10px;
+    border: 1px solid #004800;
+}
+#ex6 {
+    border: 1px solid #004800;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+#ex6 tr>td {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #00A876;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #004800;
+}
+#ex7 {
+    border: 1px solid #004800;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 15px;   
+}
+
+#ex7 tr>td {
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: #00A876;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #004800;
+}
+#ex8 {
+    border: 1px solid #004800;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 15px;   
+}
+
+#ex8 tr>td {
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: #00A876;
+    text-align: right;
+    vertical-align: top;
+    border: 1px solid #004800;
+}
+#ex9 {
+    border: 1px solid #004800;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 15px;   
+}
+
+#ex9 tr>td {
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: #00A876;
+    text-align: center;
+    vertical-align: bottom;
+    border: 1px solid #004800;
+}
+#ex10 {
+    border: 1px solid #004800;
+    margin-bottom: 25px;
+    border-collapse: separate;
+    border-spacing: 15px;   
+}
+
+#ex10 tr>td {
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: #00A876;
+    text-align: right;
+    vertical-align: bottom;
+    border: 1px solid #004800;
+}

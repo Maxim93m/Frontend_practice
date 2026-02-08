@@ -1,0 +1,96 @@
+/* .parent	{
+	display: flex;
+	width: 500px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 200px;
+	flex-grow: 3;
+}
+.elem2 {
+	width: 100px;
+	flex-grow: 1;
+}
+.elem3 {
+	width: 100px;
+	flex-grow: 1;
+} */
+
+/* .parent	{
+	display: flex;
+	width: 700px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 100px;
+	flex-grow: 1;
+}
+.elem2 {
+	width: 100px;
+	flex-grow: 2;
+}
+.elem3 {
+	width: 200px;
+	flex-grow: 3;
+} */
+/* 
+.parent	{
+	display: flex;
+	width: 500px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 100px;
+	flex-grow: 1;
+}
+.elem2 {
+	width: 100px;
+	flex-grow: 1;
+}
+.elem3 {
+	width: 100px;
+	flex-grow: 1;
+} */
+
+
+.parent	{
+	display: flex;
+	width: 1000px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 200px;
+	flex-grow: 1;
+}
+.elem2 {
+	width: 100px;
+	flex-grow: 2;
+}
+.elem3 {
+	width: 100px;
+	flex-grow: 4;
+}
+.elem4 {
+	width: 100px;
+	flex-grow: 3;
+}

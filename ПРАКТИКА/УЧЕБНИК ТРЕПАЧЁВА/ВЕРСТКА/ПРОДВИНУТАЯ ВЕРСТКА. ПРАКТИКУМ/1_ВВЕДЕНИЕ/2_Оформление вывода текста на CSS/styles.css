@@ -1,0 +1,155 @@
+#ex1{
+    margin-bottom: 25px
+}
+#ex2{
+    border: 1px solid green;
+    width: 200px;
+    white-space: nowrap;
+    margin-bottom: 25px
+}
+#ex3{
+    border: 1px solid green;
+    width: 200px;
+    white-space: pre;
+    margin-bottom: 25px
+}
+#ex4{
+    border: 1px solid green;
+    width: 200px;
+    white-space: pre-wrap;
+    margin-bottom: 25px
+}
+#ex5{
+    border: 1px solid green;
+    width: 500px;
+    white-space: pre-line;
+    margin-bottom: 25px
+}
+#ex6{
+    tab-size: 8;
+    white-space: pre;
+    border: 1px solid green;
+    width: 2500px;
+    margin-bottom: 25px
+}
+#ex7{
+    tab-size: 15;
+    white-space: pre;  
+    border: 1px solid green;
+    width: 2500px;
+    margin-bottom: 25px;
+}
+#ex8{
+    tab-size: 2;
+    white-space: pre;  
+    border: 1px solid green;
+    width: 2500px;
+    margin-bottom: 25px;
+}
+#ex9{
+    border: 1px solid green;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    overflow: scroll;
+}
+#ex10{
+    border: 1px solid green;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+#ex11{
+    border: 1px solid green;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+#ex11:hover{
+   
+    height:auto;
+}
+#ex12{
+    border: 5px solid gold;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+    overflow: auto;
+}
+#ex13{
+    border: 5px solid gold;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+#ex14{
+    border: 5px solid gold;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+    overflow-x: hidden;
+}
+#ex15{
+    border: 5px solid gold;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+    overflow-y: hidden;
+}
+#ex16{
+    border: 3px solid gold;
+    width: 150px;
+    height: 150px;
+    overflow: scroll;
+    margin-bottom: 25px;
+}
+#ex17{
+    border: 3px solid green;
+    width: 200px;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-bottom: 25px;
+}
+#ex18{
+    border: 3px solid green;
+    width: 200px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 25px;
+}
+#ex19{
+    border: 3px solid green;
+    width: 200px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 25px;
+}
+#ex19:hover{
+    height: auto;
+    overflow-x: visible;
+    white-space: normal;
+}
+#ex20{
+    width: 150px;
+    border: 3px solid red;
+    word-break: break-all;
+    margin-bottom: 25px;
+}
+#ex21{
+    width: 250px;
+    border: 3px solid red;
+    overflow-wrap: break-word;
+    margin-bottom: 25px;
+}
+#ex22{
+    width: 300px;
+    border: 3px solid red;
+    margin-bottom: 25px;
+    hyphens: auto;
+    height: auto;
+}

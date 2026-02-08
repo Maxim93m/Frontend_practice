@@ -1,0 +1,17 @@
+// #1
+// ul {
+// 	color: red;
+	
+// 	> li {
+// 		padding: 20px;
+// 	}
+// }
+
+//#2
+div {
+	ul {
+		> li {
+			padding: 20px;
+		}
+	}
+}

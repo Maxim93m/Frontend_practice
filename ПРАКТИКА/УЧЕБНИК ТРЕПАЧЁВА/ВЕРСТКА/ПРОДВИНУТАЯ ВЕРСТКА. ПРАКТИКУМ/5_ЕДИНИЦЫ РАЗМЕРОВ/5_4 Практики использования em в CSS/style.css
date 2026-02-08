@@ -1,0 +1,25 @@
+/* main {
+	margin: 1em auto;
+}
+
+h1 {
+	font-size: 2em;
+}
+p {
+	font-size: 2em;
+} */
+
+main {
+	margin: 2em auto; 
+}
+
+h1 {
+	font-size: 2em;
+}
+div {
+	font-size: 1em;
+	margin-bottom: 2em;
+}
+p {
+	font-size: 1.25em;
+}

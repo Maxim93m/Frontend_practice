@@ -1,0 +1,39 @@
+$color: green;
+$size: 150px;
+
+@mixin mix($col, $sz) {
+	color: $col;
+	font-size:  $sz;
+	@content
+}
+
+$orange: orange;
+$red: red;
+
+// #1
+// .label {
+// 	&-success {
+// 		color: $green;
+// 	}
+// 	&-warning {
+// 		color: $orange;
+// 	}
+// 	&-error {
+// 		color: $red;
+// 	}
+// }
+
+// #2
+.label {
+	&-success {
+		@include mix($color, $size);
+		// color: $color;
+	}
+	&-warning {
+		color: $orange;
+	}
+	&-error {
+		color: $red;
+	}
+}
+

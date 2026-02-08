@@ -1,0 +1,24 @@
+#ex1{
+    text-decoration-line:underline;
+    text-decoration-style:wavy;
+    text-decoration-color:red;
+    margin-bottom: 25px
+}
+#ex2{
+    text-decoration-line:underline;
+    text-decoration-style:dotted;
+    text-decoration-color:blue;
+    margin-bottom: 25px
+}
+#ex3{
+    text-decoration-line:underline;
+    text-decoration-style:dashed;
+    text-decoration-color: blueviolet;
+    margin-bottom: 25px
+}
+#ex4{
+    text-decoration-line:underline;
+    text-decoration-style:double;
+    text-decoration-color: green;
+    margin-bottom: 25px
+}

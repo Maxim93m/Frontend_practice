@@ -1,0 +1,86 @@
+div{
+    width: 400px;
+    height: 100px;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+input{
+    width: 400px;
+    height: 30px;
+}
+#ex1{
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+#ex1:hover{
+    background-color: red;
+}
+#ex2{
+    transition-property:  background-color;
+    transition-duration: 2s;
+}
+#ex2>p{
+    transition-property:  color;
+    transition-duration: 2s;
+}
+#ex2:hover p{
+    color: white;
+}
+#ex2:hover{
+    background-color: red;
+}
+#ex2>p{
+    display: inline;
+    color:red;
+}
+#ex3{
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+#ex3:hover{
+    width:100%;
+}
+#ex4{
+    transition: all 1s ease-out;
+}
+#ex4:hover{
+    width:70%;
+    margin-left: 15%;
+}
+#ex5{
+    transition-property: width;
+    transition-duration: 2s;
+    transition-delay: 3s;
+}
+#ex5:hover{
+    width: 70%;
+}
+#ex6{
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.5, -0.5, 0.5, 0.5);
+}
+#ex6:hover{
+    width:80%;
+}
+#ex7{
+    transition-property: width;
+    transition-duration: 3s;
+}
+#ex7:focus{
+    width: 50%;
+    color: blue;
+    border: 1px solid blue;
+    outline: none;
+}
+#ex8{
+    transition-property: all;
+    transition-duration: 3s;
+}
+#ex8:focus{
+    box-shadow: 0 0 10px blue;
+    color: blue;
+    border: 1px solid blue;
+    outline: none;
+}

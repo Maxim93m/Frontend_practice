@@ -1,0 +1,14 @@
+.link {
+  color: red;
+  font-size: 12px;
+}
+
+.test .link {
+  color: red;
+  font-size: 12px;
+}
+
+#main .link {
+  color: red;
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */

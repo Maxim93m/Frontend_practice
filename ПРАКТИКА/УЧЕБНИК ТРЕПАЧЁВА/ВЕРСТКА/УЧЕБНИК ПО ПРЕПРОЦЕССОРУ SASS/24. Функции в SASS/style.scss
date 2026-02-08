@@ -1,0 +1,12 @@
+$color: green;
+$size: 150px;
+
+
+
+
+@function func($num) {
+	@return $num + $size;
+}
+div {
+	font-size: func(4);
+}

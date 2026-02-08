@@ -1,0 +1,76 @@
+#ex1, #ex2, #ex3, #ex4, #ex5, #ex6, #ex7, #ex8, #ex9, #ex10, #ex12{
+    margin-bottom: 25px;
+}
+#ex3>textarea{
+    width: 350px;
+    height: 200px;
+}
+#ex4>textarea{
+    padding: 15px;
+    width: 350px;
+    height: 200px;
+}
+#ex5>textarea{
+    padding: 15px;
+    width: 350px;
+    height: 200px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: Arial;
+}
+#ex5>input{
+    padding: 15px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: Arial;
+}
+#ex6>textarea{
+    resize: horizontal;
+}
+#ex7>textarea{
+    resize: vertical;
+}
+#ex8>textarea{
+    resize: none;
+}
+#ex9>textarea{
+    resize: both;
+}
+#ex10>input{
+    width: 150px;
+    height: 30px;
+}
+#ex11>textarea{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+#ex12>input{
+    width: 150px;
+    height: 30px;
+}
+#ex12>input::placeholder{
+    color: green;
+}
+#ex13>textarea{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+#ex13>textarea::placeholder{
+    color: green;
+}
+#ex14>input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#ex14>textarea{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+#ex14>input::placeholder, #ex14>textarea::placeholder{
+    color: green;
+}

@@ -1,0 +1,36 @@
+// #1
+// #block {
+// 	&.xxx {
+// 		width: 300px;
+// 	}
+// }
+// #2
+// #block {
+// 	.xxx {
+// 		width: 300px;
+// 	}
+// }
+// #3
+// #block {
+// 	&.xxx {
+// 		&.zzz {
+// 			width: 300px;
+// 		}
+// 	}
+// }
+// #4
+// #block {
+// 	&.xxx {
+// 		.zzz {
+// 			width: 300px;
+// 		}
+// 	}
+// }
+// #5
+#block {
+	.xxx {
+		&.zzz {
+			width: 300px;
+		}
+	}
+}

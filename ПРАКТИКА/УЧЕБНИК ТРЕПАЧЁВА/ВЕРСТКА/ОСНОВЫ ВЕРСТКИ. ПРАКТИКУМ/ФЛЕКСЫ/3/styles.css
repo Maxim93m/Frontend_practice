@@ -1,0 +1,28 @@
+#elem{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background-color: green;
+    text-align: center;
+    font-size: 21px;
+    line-height: 50px;
+    color: white;
+}
+.parent{
+    width: 900px;
+    height: 350px;
+    margin: 70px auto;
+    border: 1px solid green;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.child{
+    width: 100px;
+    height: 50px;
+    border: 1px solid red;
+    margin-right: 5px;
+}

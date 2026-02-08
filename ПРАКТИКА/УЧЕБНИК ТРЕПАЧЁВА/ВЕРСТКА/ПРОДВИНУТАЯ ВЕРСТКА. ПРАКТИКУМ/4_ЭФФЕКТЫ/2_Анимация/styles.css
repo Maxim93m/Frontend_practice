@@ -1,0 +1,220 @@
+div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+
+@keyframes move_ex1 {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: 100%;
+    }
+}
+
+#ex1 {
+    animation-name: move_ex1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes _ex2 {
+    from {
+        background-color: white;
+
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+#ex2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    animation-name: _ex2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move_ex3 {
+    0% {
+        left: 1%;
+        top: 40%;
+    }
+
+    25% {
+        left: 15%;
+        top: 40%;
+    }
+
+    50% {
+        left: 15%;
+        top: 60%;
+    }
+
+    75% {
+        left: 1%;
+        top: 60%;
+    }
+
+    100% {
+        left: 1%;
+        top: 40%;
+    }
+}
+
+#ex3 {
+    animation-name: move_ex3;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+@keyframes move_ex4 {
+    0% {
+        left: 1%;
+        top: 60%;
+    }
+
+    25% {
+        left: 15%;
+        top: 60%;
+    }
+
+    50% {
+        left: 15%;
+        top: 80%;
+    }
+
+    75% {
+        left: 1%;
+        top: 80%;
+    }
+
+    100% {
+        left: 1%;
+        top: 60%;
+    }
+    from {
+        background-color: white;
+
+    }
+
+    to {
+        background-color: red;
+    }
+}
+#ex4{
+    animation-name: move_ex4;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+@keyframes move_ex5{
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 20%;
+    }
+}
+#ex5{
+    animation-name: move_ex5;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes move_ex7{
+    from{
+       width: 50px;
+    }
+    to{
+        width: 1000px;
+    }
+}
+#ex7{
+    animation-name: move_ex7;
+    animation-duration: 2s;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+    animation-direction: alternate;
+}
+#ex7:hover{
+    animation-play-state: running;
+}
+#ex8{
+    border-color: green;
+}
+
+#ex8_1{
+    animation-name: move_ex8;
+    animation-duration: 5s;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes move_ex8{
+    from{
+       width: 50px;
+    }
+    to{
+        width: 100%;
+    }
+}
+#ex8:hover + #ex8_1{
+    animation-play-state: running;
+}
+#ex9 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    position: relative;
+}
+
+@keyframes pusk {
+    40%, 70%, 90% {
+        animation-timing-function: ease-out;
+        bottom: 0;
+    }
+    0% {
+        bottom: 100px;
+        left: 0;
+        animation-timing-function: ease-in;
+    }
+    55% {
+        bottom: 50px;
+        animation-timing-function: ease-in;
+    }
+    80% {
+        bottom: 25px;
+        animation-timing-function: ease-in;
+    }
+    95% {
+        bottom: 10px;
+        animation-timing-function: ease-in;
+    }
+    100% {
+        left: 110px;
+        bottom: 0;
+        animation-timing-function: ease-out;
+    }
+}
+#ex9_ball{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+	animation: pusk 5s infinite;
+}

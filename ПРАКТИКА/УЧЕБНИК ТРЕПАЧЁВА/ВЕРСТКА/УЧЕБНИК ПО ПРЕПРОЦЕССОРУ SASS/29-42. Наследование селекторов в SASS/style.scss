@@ -1,0 +1,8 @@
+#product{
+	width: 500px;;
+}
+
+#product-card{
+	@extend #product;
+	font-weight: 600px;
+}

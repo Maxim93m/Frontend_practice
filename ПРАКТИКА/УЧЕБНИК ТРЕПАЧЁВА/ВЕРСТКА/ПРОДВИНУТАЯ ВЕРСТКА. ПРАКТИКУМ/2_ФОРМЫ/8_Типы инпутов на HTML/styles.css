@@ -1,0 +1,7 @@
+.ex1, #ex2{
+    margin-bottom: 25px;
+}
+#ex2>button{
+   width: 100px;
+   height: 70px;
+}

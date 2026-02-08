@@ -1,0 +1,33 @@
+.circM{
+    width: 600px;
+    height: 600px;
+    margin: 5px auto;
+    position: relative;
+    border-radius: 50%;
+    background-color: #4dee99;
+}
+.circ{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 50%;
+    left: 120px;
+    top: 90px;
+    background-color: white;
+}
+.rect1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 243px;
+    top: 250px;
+    background-color: white;
+}
+.rect2{
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    left: 165px;
+    top: 420px;
+    background-color: white;
+}

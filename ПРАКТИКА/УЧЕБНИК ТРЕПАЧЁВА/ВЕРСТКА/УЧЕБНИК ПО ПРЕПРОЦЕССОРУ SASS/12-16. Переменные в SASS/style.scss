@@ -1,0 +1,30 @@
+$green: green;
+$orange: orange;
+$red: red;
+
+// #1
+// .label {
+// 	&-success {
+// 		color: $green;
+// 	}
+// 	&-warning {
+// 		color: $orange;
+// 	}
+// 	&-error {
+// 		color: $red;
+// 	}
+// }
+
+// #2
+.label {
+	&-success {
+		color: $green;
+	}
+	&-warning {
+		color: $green;
+	}
+	&-error {
+		color: $green;
+	}
+}
+

@@ -1,0 +1,109 @@
+h1{
+    text-shadow: 10px 5px 3px red;
+}
+h2{
+    text-shadow: -10px -5px  green;
+}
+h3{
+    text-shadow: 15px -10px green;
+}
+h4{
+    text-shadow: 0px 0px 5px green;
+}
+#ex1{
+    text-shadow: 0px 10px 5px red, 0px -10px 5px green;
+}
+h5{
+   text-shadow: 3px 5px 1px grey; 
+}
+h6{
+    text-shadow: 0px 0px 10px grey; 
+}
+div{
+    text-shadow: 0px 0px 2px red;
+}
+#ex2{
+    margin-top: 30px;
+    text-shadow: -10px -10px 3px blue, 10px 10px 3px red;
+}
+#ex3{
+    margin-top: 30px;
+    text-shadow: 20px 20px blue, 10px 10px red;
+}
+#ex4{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px 15px 5px red;
+}
+#ex5{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px -15px green;
+}
+#ex6{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: inset 0px 0px 5px black;
+}
+#ex7{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: inset 4px 3px 3px black;
+}
+#ex8{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow:  inset 4px 3px 3px black, inset -4px -3px 3px black;
+}
+#ex9{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: inset 30px 0 green, inset -30px 0 red, inset 0 30px blue, inset 0 -30px orange;
+}
+#ex10{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px 20px 0px black;
+}
+#ex11{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px 20px 5px black;
+}
+#ex12{
+    margin: 70px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px 20px 5px black,  -20px -20px 5px black;
+}
+#ex13{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 5px black;
+}
+#ex14{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 5px blue, inset -5px -5px 5px red;
+}

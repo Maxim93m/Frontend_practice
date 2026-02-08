@@ -1,0 +1,146 @@
+/* .parent{
+	width: 700px;
+	border: 1px solid red;
+	display: flex;
+}
+
+.child{
+	width: 200px;
+	border: 1px solid green;
+	height: 50px;
+} */
+
+/* .parent	{
+	display: flex;
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 100px;
+}
+.elem2 {
+	width: 100px;
+}
+.elem3 {
+	width: 100px;
+} */
+/* 
+.parent	{
+	display: flex;
+	width: 900px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 400px;
+}
+.elem2 {
+	width: 200px;
+}
+.elem3 {
+	width: 200px;
+}
+.elem3 {
+	width: 200px;
+} */
+/* 
+.parent	{
+	display: flex;
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 300px;
+}
+.elem2 {
+	width: 100px;
+}
+.elem3 {
+	width: 100px;
+} */
+
+/* .parent	{
+	display: flex;
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 100px;
+	flex-shrink: 2;
+}
+.elem2 {
+	width: 100px;
+	flex-shrink: 1;
+}
+.elem3 {
+	width: 100px;
+	flex-shrink: 1;
+} */
+
+/* .parent	{
+	display: flex;
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 100px;
+	flex-shrink: 3;
+}
+.elem2 {
+	width: 100px;
+	flex-shrink: 2;
+}
+.elem3 {
+	width: 100px;
+	flex-shrink: 1;
+} */
+.parent	{
+	display: flex;
+	width: 500px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 300px;
+	flex-shrink: 3;
+}
+.elem2 {
+	width: 200px;
+	flex-shrink: 2;
+}
+.elem3 {
+	width: 200px;
+	flex-shrink: 1;
+}
+.elem4 {
+	width: 200px;
+	flex-shrink: 1;
+}

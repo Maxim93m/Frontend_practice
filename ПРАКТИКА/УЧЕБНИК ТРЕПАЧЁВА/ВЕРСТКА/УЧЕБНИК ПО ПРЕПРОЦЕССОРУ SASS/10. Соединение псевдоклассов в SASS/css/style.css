@@ -1,0 +1,9 @@
+#block {
+  width: 300px;
+}
+#block:link, #block:visited {
+  color: red;
+}
+#block:hover {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */

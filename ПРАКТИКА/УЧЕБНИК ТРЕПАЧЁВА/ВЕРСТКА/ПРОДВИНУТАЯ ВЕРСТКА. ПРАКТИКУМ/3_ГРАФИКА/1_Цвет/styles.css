@@ -1,0 +1,28 @@
+p{
+    color: rgb(255, 0, 0);
+}
+h2{
+    color: rgb(0, 255, 0);
+}
+h3{
+    color: rgb(0, 0, 255);
+}
+h4{
+    color: rgb(255, 255, 0);
+}
+.ex1{
+    color: #FFEEAA;
+}
+.ex2{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.ex3{
+    color: rgba(255, 0, 0, 0.5);
+}
+.ex4{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+.ex5{
+    border: 10px solid rgba(0, 0, 255, 0.5);
+}

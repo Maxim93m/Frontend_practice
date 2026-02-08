@@ -1,0 +1,55 @@
+h1{
+    color: indigo;
+}
+/*
+div{
+    color:tomato;
+}
+div h2{
+    color: turquoise;
+}
+#block p{
+    color:gold;
+}
+#block h2{
+    color: green;
+}
+.bbb{
+    color: green;
+}
+#block .bbb{
+    color: green;
+}
+p.bbb{
+    color:green;
+}
+h2.bbb{
+    color: green;
+}
+#block p.bbb{
+    color: green;
+}
+.bbb, .xxx{
+    color: green;
+}
+p.bbb, h2.xxx{
+    color: green;
+}
+#block p.bbb, p.xxx{
+    color: green;
+}
+.fff{
+    color: green;
+}
+.fff p{
+    color: green;
+}
+p.fff{
+    color: green;
+}
+.fff .bbb{
+    color: green;
+}*/
+.fff h2.bbb{
+    color: green;
+}

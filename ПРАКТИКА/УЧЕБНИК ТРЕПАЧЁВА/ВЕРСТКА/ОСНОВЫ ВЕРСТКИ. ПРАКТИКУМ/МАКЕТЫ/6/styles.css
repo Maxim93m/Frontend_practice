@@ -1,0 +1,50 @@
+#menu{
+    display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	background-color: #474947;
+}
+#menu a{
+    text-align: center;
+    color: white;
+    background-color: #474947;
+	padding: 15px 25px;
+	font: bold 15px Arial;
+	text-decoration: none;
+}
+
+#menu a:hover, #menu a.active{
+	color: black;
+	background-color: #FFFFFF;
+}
+#wrapper{
+	margin: 50px auto;
+	width: 800px;
+	border: 1px solid #474947;
+}
+
+#content {
+	padding: 0 30px 20px;
+}
+#content h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+#content p {
+	padding: 0 10px;
+	margin-bottom: 5px;
+	font: 17px/1.3 "Times New Roman";
+	text-align: justify;
+}
+#content a{
+	color: blue;
+	font: bold 17px/1.3 "Times New Roman"
+}
+#content a:hover{
+	color:green;
+}
+/*
+#content a:visited{
+	color:blue;
+}*/

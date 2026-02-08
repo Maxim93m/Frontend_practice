@@ -1,0 +1,60 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+#ex1{   
+    background: linear-gradient(to bottom, yellow, white);
+}
+#ex2{
+    background: linear-gradient(to right, yellow, white);
+}
+#ex3{
+    background: linear-gradient(to left, yellow, white);
+}
+#ex4{
+    background: linear-gradient(to left top, red, white);
+}
+#ex5{
+    background: linear-gradient(to right, red 0px, blue 200px, white, red);
+}
+#ex6{
+    background: linear-gradient(to bottom, white 50%, red 50%);
+}
+#ex7{
+    background: radial-gradient(white, blue);
+}
+#ex8{
+    background: radial-gradient(at top, white, blue);
+}
+#ex9{
+    background: radial-gradient(circle, white, blue);
+}
+#ex10{
+    background: radial-gradient(circle closest-side, white, blue);
+}
+#ex11{
+    background: radial-gradient(circle closest-corner at 30px 40px, white, blue);
+}
+#ex12{
+    background: radial-gradient(circle closest-side, #333 10px, white 30px, white 40px, green 50px);
+}
+#ex13{
+    background: radial-gradient(circle closest-side, green 0px, green 30px, white 30px, white 50px, green 50px);
+}
+#ex14{
+    background: repeating-linear-gradient(90deg,white, white 5px, black 5px, black 10px);
+}
+#ex15{
+    background: repeating-linear-gradient(180deg,white, white 5px, black 5px, black 10px);
+}
+#ex16{
+    background: repeating-linear-gradient(180deg,white, white 5px, black 5px, black 6px);
+}
+#ex17{
+    background: repeating-linear-gradient(45deg,white, white 5px, red 5px, red 10px);
+}
+#ex18{
+    background: repeating-radial-gradient(circle, black, black 5px, white 5px, white 10px);
+}

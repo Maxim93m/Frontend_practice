@@ -1,0 +1,24 @@
+// #1
+// a.class {
+// 	&:link {
+// 		color: red;
+// 	}
+// 	&:visited {
+// 		color: blue;
+// 	}
+// 	&:hover {
+// 		color: green;
+// 	}
+// }
+
+// #2
+#block {
+	width: 300px;
+	&:link,
+	&:visited {
+		color: red;
+	}
+	&:hover {
+		color: blue;
+	}
+}

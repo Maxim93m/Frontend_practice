@@ -1,0 +1,22 @@
+#ex1, #ex5, #ex7{
+    margin-bottom: 25px;
+}
+#ex2>input{
+    border-color: red;
+    margin-bottom: 25px;
+}
+#ex3>input, #ex8>input{
+    height: 35px;
+    margin-bottom: 25px;
+}
+#ex4>input{
+    height: 35px;
+    margin-bottom: 25px;
+}
+#ex6>input{
+    color: red;
+    margin-bottom: 25px;
+}
+#ex8>label{
+    margin-left: 10px;
+}

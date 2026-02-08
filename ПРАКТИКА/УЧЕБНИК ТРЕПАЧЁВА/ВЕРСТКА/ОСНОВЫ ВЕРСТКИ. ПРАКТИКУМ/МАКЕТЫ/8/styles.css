@@ -1,0 +1,29 @@
+h1{
+	text-align: center;
+	font: 30px "Times New Roman";
+}
+#wrapper{
+	margin: 0px auto;
+	width: 700px;
+}
+.content{
+	border: 1px solid #737173;
+	margin-bottom: 20px;
+	padding: 35px 20px 5px 20px;
+}
+.content p{
+	margin-bottom: 20px;
+}
+.content a{
+	color: blue;
+	font: bold 23px/1 "Times New Roman";
+	text-decoration: none;
+}
+.content a:hover{
+	color:blue;
+	text-decoration: underline;
+}
+.content .more {
+	font: 15px/1 "Times New Roman";
+	text-align: right;
+}

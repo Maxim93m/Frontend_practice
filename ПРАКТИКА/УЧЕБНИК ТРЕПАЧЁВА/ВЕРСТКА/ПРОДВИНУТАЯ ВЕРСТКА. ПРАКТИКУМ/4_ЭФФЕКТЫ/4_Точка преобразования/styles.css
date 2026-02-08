@@ -1,0 +1,97 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-top: 50px;
+    margin-left: 50px;
+    transition-property: transform;
+    transition-duration: 1s;
+   
+}
+#ex1{
+    transform-origin: bottom right;
+}
+#ex1:hover{  
+    transform: rotate(45deg);
+}
+#ex2{
+    transform-origin: bottom left;
+}
+#ex2:hover{  
+    transform: rotate(45deg);
+}
+#ex3{
+    transform-origin: center center;
+}
+#ex3:hover{  
+    transform: rotate(45deg);
+}
+#ex4{
+    transform-origin: right top;
+}
+#ex4:hover{  
+    transform: rotate(-45deg);
+}
+#ex5{
+    transform-origin: bottom right;
+}
+#ex5:hover{  
+    transform: scale(1.2);
+}
+#ex6{
+    transform-origin: top right;
+}
+#ex6:hover{  
+    transform: scale(1.3);
+}
+#ex7{
+    transform-origin: bottom right;
+}
+#ex7:hover{  
+    transform: skewX(30deg);
+}
+#ex8{
+    transform-origin: top right;
+}
+#ex8:hover{  
+    transform: skewX(30deg);
+}
+#ex9_circle{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+    border-radius: 150px;
+}
+@keyframes anim1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes anim2 {
+    0% {
+        background: white;
+    }
+    50% {
+        background: red;
+    }
+    100% {
+        background: white;
+    }
+}
+#ex9_ball{
+    width: 30px;
+    height: 30px;
+    margin-left: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 75px; 
+	left: 150%;
+    transform-origin: center center;
+    transform: rotate(360deg);
+    transform-origin: -200px center;
+	animation: anim1 8s linear infinite, anim2 8s linear infinite;
+}

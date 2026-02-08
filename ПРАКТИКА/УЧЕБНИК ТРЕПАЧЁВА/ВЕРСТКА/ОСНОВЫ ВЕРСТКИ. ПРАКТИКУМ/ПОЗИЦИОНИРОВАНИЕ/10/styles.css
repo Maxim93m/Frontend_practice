@@ -1,0 +1,27 @@
+#elem1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color: red;
+    z-index: 2;
+}
+#elem2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 50px;
+    background-color: green;
+    
+}
+#elem3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 100px;
+    background-color: blue;
+    z-index: 1;
+}

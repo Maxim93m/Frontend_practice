@@ -1,0 +1,13 @@
+#ex1, #ex2, #ex3, #ex4{
+    margin-bottom: 25px;
+}
+
+#ex1>input:checked + #label_1 {
+    color:red;
+}
+#ex2>input:checked + #label_2 {
+    color:red;
+}
+#ex3>input:disabled{
+    border: 1px solid red;
+}

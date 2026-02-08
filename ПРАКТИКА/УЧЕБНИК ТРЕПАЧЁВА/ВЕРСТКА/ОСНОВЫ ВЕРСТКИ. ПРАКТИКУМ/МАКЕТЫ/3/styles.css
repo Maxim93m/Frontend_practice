@@ -1,0 +1,22 @@
+#menu{
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+}
+#menu a{
+    border: 1px solid #18a273;
+    text-align: center;
+    color: white;
+    background-color: #18a273;
+    margin-bottom: 5px;
+	padding: 20px;
+	font: 15px Arial;
+	text-decoration:none;
+    text-align: left;
+}
+
+#menu a:hover, #menu a.active{
+	color: #18a273;
+	border: 1px solid #18a273;
+	background-color: white;
+}

@@ -1,0 +1,13 @@
+div {
+	width: 50vw;
+	height: 50vh;
+	margin-top: 30vh;
+	border: 1px solid red;
+}
+
+/* div {
+	width: 70vw;
+	height: 70vh;
+	margin: 30px auto;
+	border: 1px solid red;
+} */

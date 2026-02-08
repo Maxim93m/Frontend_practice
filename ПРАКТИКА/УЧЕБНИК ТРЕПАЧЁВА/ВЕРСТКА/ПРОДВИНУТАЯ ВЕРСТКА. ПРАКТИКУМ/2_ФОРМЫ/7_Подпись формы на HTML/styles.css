@@ -1,0 +1,6 @@
+.ex1{
+    margin-bottom: 25px;
+}
+.ex1>fieldset{
+    width: 250px;
+}
